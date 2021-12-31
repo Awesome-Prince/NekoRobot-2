@@ -94,7 +94,7 @@ buttons = [
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
                        InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Hodacka/NekoRobot-2"),
-                       InlineKeyboardButton(text="[► Network ◄]", url="https://t.me/Yuki_Network),
+                       InlineKeyboardButton(text="[► Network ◄]", url="https://t.me/Yuki_Network"),
                      ],
                     [                  
                        InlineKeyboardButton(
