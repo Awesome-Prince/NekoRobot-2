@@ -24,7 +24,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy, mongodb dat
 <a href="https://t.me/Yuki_Network"><img src="https://img.shields.io/badge/Network 💜-Yùki_Network%20-blue.svg?logo=telegram"></a>
 
 ## ╒═══「 Credits 」
-The bot is based of on the original work done by [Hodacka](https://github.com/Hodacka)
+The bot is based of on the original work done by [Prince](https://github.com/Awesome-Prince)
 This repo was just reamped to suit an Anime-centric community. All original credits go to Hodacka and his dedication, Without his efforts, this fork would not have been possible!
 
 ### ╒═══「 Creator Info/Credits 」
