@@ -29,7 +29,7 @@ This repo was just reamped to suit an Anime-centric community. All original cred
 
 ### ╒═══「 Creator Info/Credits 」
 
-+ ➢ [Lovely Boy](https://github.com/Hodacka) : OWNER | DEV
++ ➢ [LovelyPrince](https://github.com/Awesome-Prince) : OWNER | DEV
 + ➢ [Cutiepii-Robot Repo](https://github.com/Awesome-RJ/CutiepiiRobot) : BASE 
 + ➢ Asuana Repo : BASE
 
