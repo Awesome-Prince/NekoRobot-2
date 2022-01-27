@@ -6,6 +6,7 @@ from sqlalchemy import (
     Column,
     ForeignKey,
     Integer,
+    BigInteger,
     String,
     UnicodeText,
     UniqueConstraint,
@@ -15,7 +16,7 @@ from sqlalchemy import (
 
 class Users(BASE):
     __tablename__ = "users"
-    user_id = Column(Integer, primary_key=True)
+    user_id = Column(BigInteger, primary_key=True)
     username = Column(UnicodeText)
 
     def __init__(self, user_id, username=None):
@@ -49,7 +50,7 @@ class ChatMembers(BASE):
         nullable=False,
     )
     user = Column(
-        Integer,
+        BigInteger,
         ForeignKey("users.user_id", onupdate="CASCADE", ondelete="CASCADE"),
         nullable=False,
     )
