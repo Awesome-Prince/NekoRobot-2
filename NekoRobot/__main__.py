@@ -78,8 +78,6 @@ PM_START_TEXT = """
 *Hola!*
 *I am an Anime themed advance group management bot with a lot of Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-
-
 • *thnx to @NekoXRobot for neko robot repo*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
@@ -228,13 +226,26 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+        update.effective_message.reply_animation(
+            NEKO_IMG, caption= "<b>Yes, Darling I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            text="🚑 Support",
+                            url=f"https://telegram.dog/{SUPPORT_CHAT}",
+                        ),
+                        InlineKeyboardButton(
+                            text="📢 Updates",
+                            url="https://telegram.dog/Black_Knights_Union",
+                        ),
+                    ]
+                ]
+            ),
         )
-
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
