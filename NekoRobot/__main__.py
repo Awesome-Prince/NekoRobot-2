@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
-    else:
+        else:
         update.effective_message.reply_animation(
             NEKO_IMG, caption= "<b>Yes, Darling I'm alive!\nHaven't sleep since</b>: <code>{}</code>".format(
                 uptime
