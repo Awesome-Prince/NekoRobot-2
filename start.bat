@@ -1,4 +1,4 @@
 @echo off
-TITLE Neko Robot
-:: Enables virtual env mode and then starts saitama
-env\scripts\activate.bat && py -m NekoRobot
+TITLE Misha Necron
+:: Enables virtual env mode and then starts misha
+env\scripts\activate.bat && py -m MishaNecron
